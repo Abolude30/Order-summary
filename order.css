@@ -1,0 +1,136 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    text-align: -webkit-center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: Red Hat Display;
+
+}
+
+.card{
+    background-color: white;
+    width: 98%;
+    border-radius: 20px;
+    
+}
+
+.hero-img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 1.29em;
+}
+
+#p-sum{
+    padding-left: 28px;
+    padding-right: 28px;
+    line-height: 1.36rem;
+    width: 70%;
+    color: gray;
+    cursor: pointer;
+}
+
+.plan{
+    /* display: flex; */
+    align-items: center;
+    /* place-content: space-around; */
+    background-color: hsl(225, 100%, 98%);
+    padding: 1%;
+    padding-left: 4%;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0.3em, 1fr));
+    grid-row: 2;
+    grid-gap: 0.1rem 0.5rem;
+
+
+}
+
+.plan img{
+    margin-right: 7%;
+}
+
+#AP{
+    line-height: 1.38em;
+    line-height: 1.38em;
+    color: blue;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 13%;
+    color: gray;
+    width: 210%;
+}
+
+#AP b{
+    color: black;
+    font-size: 0.93em;
+}
+
+
+#change{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    margin-left: 143%;
+}
+
+#change:hover{
+    text-decoration: none;
+    color: hsl(224deg 58.6% 52.45%);
+}
+
+.pay{
+    margin-top: 9%;
+    width: 84%;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsl(245deg 97.96% 61.49%);
+    color: white;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0px 3px 17px hsl(251.39deg 96.71% 76.07%);
+    margin-bottom: 4%;
+}
+
+.pay:hover{
+    background-color: hsl(224deg 58.6% 52.45%) ;
+    cursor: pointer;
+}
+
+.cancel{
+    width: 84%;
+    border: none;
+    margin-bottom: 23px;
+    height: 22%;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    color: gray;
+}
+
+.cancel:hover{
+    color: black;
+}
+
+
+
+@media screen and (min-width: 736px) {
+    .card{
+        width: 39%;
+    }
+
+    body{
+        padding-top: 2%;
+    padding-bottom: 2%;
+    }
+}
